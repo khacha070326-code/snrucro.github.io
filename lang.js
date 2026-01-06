@@ -222,7 +222,7 @@ const STATIC_DATE_LINE = 'Happy Birthday to you';
 
         const heartImages = [
             'img/anh1.jpg','img/anh2.jpg','img/anh3.jpg','img/anh4.jpg',
-            'img/anh6.jpg','img/anh7.jpg','img/anh5.jpg','img/anh8.jpg',
+            'img/anh5.jpg','img/anh6.jpg','img/anh7.jpg','img/anh8.jpg',
             'img/anh9.jpg','img/anh10.jpg','img/anh11.jpg','img/anh12.jpg',
         ];
 
@@ -354,4 +354,5 @@ const STATIC_DATE_LINE = 'Happy Birthday to you';
                 // Alternate between normal and heart-shaped images
                 if (Math.random() < 0.33) createHeartShapedImage(); else createScrollingHeartImage();
             }, intervalTime);
+
         }
